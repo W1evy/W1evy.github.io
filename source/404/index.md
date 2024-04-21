@@ -1,41 +1,19 @@
 ---
-title: '404 - 好巧，竟然在这里遇到你！'
-date: 2022-01-22 20:02:00
+title: '404'
+permalink: /404
 comments: false
-
-permalink: /404.html
-
+layout: false
 ---
 
-
-
-<!-- markdownlint-disable MD039 MD033 -->
-
-## 这是一个不存在的页面
-
-对不起，您所访问的页面不存在或者已删除。
-
-预计将在约 <span id="timeout">3</span> 秒后返回首页。
-
-你可以 [点这里](https://w1evy.github.io/) 直接返回首页。
-
-<script>
-
-let countTime = 3;
-
-
-
-function count() {
-
-  document.getElementById('timeout').textContent = countTime;
-  countTime -= 1;
-  if(countTime === 0){
-    location.href = "https://w1evy.github.io/";
-  }
-  setTimeout(() => {
-    count();
-  }, 1000);
-}
-
-count();
-</script>
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8;"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="robots" content="all" />
+  <meta name="robots" content="index,follow"/>
+</head>
+<body>
+  <script type="text/javascript" src="//qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js" charset="utf-8" homePageUrl="https://w1evy.github.io/" homePageName="返回博客首页"></script>
+</body>
+</html>
